@@ -1,0 +1,525 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
+  <head>
+    <title>Learn Web Development with the Ruby on Rails Tutorial</title>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+<meta name="robots" content="all" />
+<meta name="MSSmartTagsPreventParsing" content="true" />
+<meta name="description" content="Ruby on Rails Tutorial: Learn Rails by Example by Michael Hartl" />
+<meta name="keywords" content="Learn Ruby Rails Tutorial web development Rails 3" />
+<meta name="author" content="Michael Hartl" />
+<meta property="og:title" content="Ruby on Rails Tutorial: Learn Rails by Example"/>
+<meta property="og:site_name" content="Ruby on Rails Tutorial"/>
+<meta property="og:image" content="http://railstutorial.org/images/layout/logo.png"/>
+<meta property="og:url" content="http://railstutorial.org/">
+<meta property="og:type" content="article" />
+<meta property="og:description" content="Ruby on Rails Tutorial: Learn Web Development with Rails by Michael Hartl teaches web development with Ruby on Rails. Rails Tutorial is fully up-to-date with Rails 3.0 and Rails 3.2." />
+    <link href="/stylesheets/polytexnic.css?1365393179" media="screen" rel="stylesheet" type="text/css" />
+    <link href="/stylesheets/pygments.css?1365393179" media="screen" rel="stylesheet" type="text/css" />
+
+      <link href="/stylesheets/screen.css?1365393179" media="screen, projection" rel="stylesheet" type="text/css" />
+      
+    <link href="/stylesheets/print.css?1365393179" media="print" rel="stylesheet" type="text/css" />
+    <!--[if lte IE 7]><link href="/stylesheets/ie.css?1365393179" media="screen" rel="stylesheet" type="text/css" /><![endif]-->
+    <!--[if lt IE 7]>  <div style='border: 1px solid #F7941D; background: #FEEFDA; text-align: center; clear: both; height: 75px; position: relative;'>    <div style='position: absolute; right: 3px; top: 3px; font-family: courier new; font-weight: bold;'><a href='#' onclick='javascript:this.parentNode.parentNode.style.display="none"; return false;'><img src='http://www.ie6nomore.com/files/theme/ie6nomore-cornerx.jpg' style='border: none;' alt='Close this notice'/></a></div>    <div style='width: 640px; margin: 0 auto; text-align: left; padding: 0; overflow: hidden; color: black;'>      <div style='width: 75px; float: left;'><img src='http://www.ie6nomore.com/files/theme/ie6nomore-warning.jpg' alt='Warning!'/></div>      <div style='width: 275px; float: left; font-family: Arial, sans-serif;'>        <div style='font-size: 14px; font-weight: bold; margin-top: 12px;'>You are using an outdated browser</div>        <div style='font-size: 12px; margin-top: 6px; line-height: 12px;'>For a better experience using this site, please upgrade to a modern web browser.</div>      </div>      <div style='width: 75px; float: left;'><a href='http://www.firefox.com' target='_blank'><img src='http://www.ie6nomore.com/files/theme/ie6nomore-firefox.jpg' style='border: none;' alt='Get Firefox 3.5'/></a></div>      <div style='width: 75px; float: left;'><a href='http://www.browserforthebetter.com/download.html' target='_blank'><img src='http://www.ie6nomore.com/files/theme/ie6nomore-ie8.jpg' style='border: none;' alt='Get Internet Explorer 8'/></a></div>      <div style='width: 73px; float: left;'><a href='http://www.apple.com/safari/download/' target='_blank'><img src='http://www.ie6nomore.com/files/theme/ie6nomore-safari.jpg' style='border: none;' alt='Get Safari 4'/></a></div>      <div style='float: left;'><a href='http://www.google.com/chrome' target='_blank'><img src='http://www.ie6nomore.com/files/theme/ie6nomore-chrome.jpg' style='border: none;' alt='Get Google Chrome'/></a></div>    </div>  </div>  <![endif]-->
+    <link href='http://feeds.feedburner.com/railstutorial' rel='alternate' title='Rails Tutorial News' type='application/rss+xml' />
+
+    
+    <script src="//platform.twitter.com/widgets.js" charset="utf-8"></script>    
+    
+  </head>
+<body class="webpage"> 
+
+  <div id="container">
+    <div id="header" class="clearfix"><div id='title'>
+  <div id='logo'><a href="http://ruby.railstutorial.org/"><img alt="Logo" src="/images/layout/logo.png?1365393179" /></a></div>
+  <h1 id='name'>
+    <a href="http://ruby.railstutorial.org/">Ruby on Rails Tutorial</a>
+  </h1>
+  <br />
+  <h2 id='authors'>
+    <a href="http://ruby.railstutorial.org/#author">by Michael Hartl</a>
+  </h2>
+</div>
+</div>
+    <div id="menu"><div class='links'>
+  <div class='box'>
+    <span>
+      Home
+    </span>
+    <span class='division'>
+      |
+    </span>
+    <span>
+      <a href="/ruby-on-rails-tutorial-book">Book</a>
+    </span>
+    <span class='division'>
+      |
+    </span>
+    <span>
+      <a href="/help">Help</a>
+    </span>
+    <span class='division'>
+      |
+    </span>
+    <span>
+      <a href="/contact">Contact</a>
+    </span>
+    <span class='division'>
+      |
+    </span>
+    <span>
+      <a href="http://news.railstutorial.org/">News</a>
+    </span>
+    <span class='img'>
+      <a href="http://feeds.feedburner.com/railstutorial"><img alt="Feed-icon16x16" class="feed" src="/images/icons/feed-icon16x16.png?1365393179" /></a>
+    </span>
+    <!-- %span.division -->
+    <!-- 
+    -->
+    <!-- %span -->
+    <!-- = link_to "By Email", email_url -->
+    <!-- %span.img -->
+    <!-- = link_to email_icon, email_url -->
+    <span class='division'>
+      |
+    </span>
+    <span>
+      <a href="http://twitter.com/railstutorial">Follow</a>
+    </span>
+    <span>
+      <a href="http://twitter.com/railstutorial"><img alt="Twitter-small" src="/images/icons/twitter-small.png?1365393179" /></a>
+    </span>
+  </div>
+</div>
+</div>     
+      <div id="content">         
+        <!-- %h3 Get Involved -->
+<!-- 
+-->
+<!-- .links -->
+<!-- %p.subscribe -->
+<!-- %span= link_to(image_tag('feed-icon32x32.png'), feed_url) -->
+<!-- = link_to("Subscribe", feed_url) -->
+<!-- %p.follow -->
+<!-- = link_to(image_tag('twitter.png'), twitter_url) -->
+<!-- = link_to("Follow", twitter_url) -->
+<!-- 
+-->
+
+                      
+        <div id="main" class="withoutsidebar">
+          
+<div id="sales">
+
+<h3 class="front top">Ruby on Rails Tutorial: Learn Web Development with Rails (2nd edition)</h3>
+
+<!-- <p class="success"><strong>The 2nd Edition of the Rails Tutorial book is now available, and the 2nd Edition screencasts are in preparation. (Click <a href="#new" style="text-decoration: underline;">here</a> to see what's new.) <a href="#buy" style="text-decoration: underline;">Buy now</a> to get access to each new screencast as it's produced (currently Lessons 1 &amp; 2). The price, $95 for the PDF/screencast bundle, will increase to $125 once the 2nd edition screencasts are done.</strong></p>
+ -->
+<p>The <strong>Ruby on Rails Tutorial, 2nd Edition</strong> book and screencast series teach you how to <span class="highlight">develop and deploy real, industrial-strength web applications</span> with <a href="http://rubyonrails.org/">Ruby on Rails</a>, the open-source web framework that powers top websites such as <a href="http://twitter.com">Twitter</a>, <a href="http://hulu.com/">Hulu</a>, <a href="http://github.com/">GitHub</a>, and the <a href="http://yp.com">Yellow Pages</a>. The <a href="/book"><em>Ruby on Rails Tutorial</em> book</a> is <a href="/book">available for free online</a> and is <a href="#buy">available for purchase as an ebook</a> (PDF, EPUB, and MOBI formats). The companion 2nd edition screencast series includes <span class="highlight">11&nbsp;individual lessons totaling more than 15&nbsp;hours</span>, with one lesson for each chapter of the <a href="/book"><em>Ruby on Rails Tutorial</em> book</a>. The best value is the <a href="#bundle">ebook/screencast bundle</a>, which includes <span class="highlight">more than 500 pages of total content and more than 15 hours of video</span>.</p>
+
+<div class="center">
+<iframe width="560" height="315" src="http://www.youtube.com/embed/hFeG4YJr8RQ?rel=0" frameborder="0" allowfullscreen style="border: 2px solid black;"></iframe>
+</div>
+
+<br />
+
+<p>The Rails Tutorial screencasts contain dozens of tips and tricks to help you <span class="highlight">go beyond the <em>Rails Tutorial</em> book</span>, including debugging hints, test-driven development techniques, and solutions to many of the book&rsquo;s exercises  (<a href="http://youtu.be/bOdn9EdUquo" target="_blank">view a sample video</a> or some <a href="#free_screencasts">free screencasts</a>). And though the screencasts are carefully edited, I&rsquo;ve left in some of the problems I encountered along the way, so that you can <span class="highlight">learn how to recover from the inevitable application errors</span>&mdash;and see that even experts sometimes make mistakes.</p>
+
+
+<p><a href="http://david.heinemeierhansson.com/">David Heinemeier Hansson</a> (DHH) is the creator of the Rails framework:
+<blockquote class="twitter-tweet tw-align-center" data-in-reply-to="80740692619571200"><p>@<a href="https://twitter.com/KonceptGeek">KonceptGeek</a> <a href="http://railsforzombies.com">http://railsforzombies.com</a> and <a href="http://ruby.railstutorial.org/">http://ruby.railstutorial.org/</a> are both good free services.</p>&mdash; DHH (@dhh) <a href="https://twitter.com/dhh/status/80746415860613123" data-datetime="2011-06-14T21:20:20+00:00">June 14, 2011</a></blockquote></p>
+
+<h2 class="title" id="new">New in the 2nd Edition</h2>
+
+<div class="products">
+<ul class="second_ed">
+  <li>Fully updated for Rails 3.2 and Ruby 1.9</li>
+  <li>All-new design using Twitter's Bootstrap</li>
+  <li>Coverage of the new asset pipeline, including Sprockets &amp; Sass</li>
+  <li>Behavior-driven development (BDD) with Capybara &amp; RSpec</li>
+  <li>Better automated testing with Guard &amp; Spork</li>
+  <li>Roll your own authentication with <tt>has_secure_password</tt></li>
+  <li>An introduction to Gherkin &amp; Cucumber</li>
+</ul>
+</div>
+
+<h2 class="title" id="free_screencasts">Free screencasts</h3>
+
+<div class="products">
+  <ul class="second_ed">
+  <li><a href="http://youtu.be/MiAz0DnnY_k" target="_blank">Installation screencast</a> (YouTube)</li>
+  <li><a href="http://youtu.be/FZ-b9oZpCZY" target="_blank">Advanced setup screencast</a> (YouTube)</li>   
+  <li><a href="http://youtu.be/05x1Jk4rT1A" target="_blank">Sublime Text 2 screencast</a> (YouTube)</li>   
+  <li><a href="samples?file=rails_tutorial_free_screencasts.zip">Download all three as a ZIP file</a></li>  
+</ul>
+
+</div>
+
+<table class="share">
+  <tr>
+    <td class="retweet">
+      <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://railstutorial.org/" data-count="vertical" data-via="railstutorial" data-text="The Ruby on Rails Tutorial by Michael Hartl">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+    </td>
+    <td class="like">
+      <fb:like href="http://railstutorial.org/" show_faces="false"></fb:like>
+    </td>
+  </tr>
+</table>
+<div class="box" id="buy">
+  <h2 class="product title">The Ruby on Rails Tutorial book and screencast series (2nd Edition)</h2>
+
+  <blockquote class="round">
+    <p>My former company (CD Baby) was one of the first to loudly switch to Ruby on Rails, and then even more loudly switch back to PHP&hellip; This book by Michael Hartl came so highly recommended that I had to try it, and <strong><em>the Ruby on Rails Tutorial</em> is what I used to switch back to Rails again</strong>&hellip; Though I&rsquo;ve worked my way through many Rails books, this is the one that finally made me &ldquo;get&rdquo; it.</p>
+
+  <p class="from">&mdash;From the <a href="/book#foreword">foreword</a> by <a href="http://sivers.org/">Derek Sivers</a></p>
+  </blockquote>
+
+  <blockquote class="round">
+<p>I got review access to all of the material and can confirm that, yes, <strong>these screencasts are awesome</strong>&hellip; If you basically want to be able to look &ldquo;over the shoulder&rdquo; of an experienced Rails developer and see how a Rails development environment is set up and how multiple apps are built, <strong>there&rsquo;s nothing that can beat this</strong>. This isn&rsquo;t a set of &ldquo;build a blog in 15 minutes&rdquo; videos&mdash;it&rsquo;s a complete course that could kick off a new career for you with Rails&nbsp;3.0.</p>
+
+  <p class="from">&mdash;<a href="https://twitter.com/#!/peterc">Peter Cooper</a>, <a href="http://www.rubyinside.com/michael-hartls-15-hours-of-rails-3-screencasts-3886.html">Ruby Inside</a></p>
+  </blockquote>
+
+<p class="notice"><strong>Note: You do <em>not</em> need PayPal to buy the Rails Tutorial. To use a credit card, click on "Checkout with PayPal", select "Don't have a PayPal account?", and fill out the information from there.</strong></p>
+
+  <table class="products" id="bundle">
+    <tr>
+      <td class="thumbnail">
+        <a href="samples?file=ruby_on_rails_tutorial_samples.zip"><img alt="Sample_chapter_thumbnail" src="/images/thumbnails/sample_chapter_thumbnail.png?1365393179" /></a>
+        <div class="caption">
+          <a href="samples?file=ruby_on_rails_tutorial_samples.zip">Ebook</a>
+        </div>
+      </td>
+      <td class="description">
+        <ul>
+          <li><strong>100% DRM-free download of the <em>Ruby on Rails Tutorial, 2nd Edition</em></strong></li>
+          <li>Available as PDF, EPUB, and Mobi</li>
+          <li>More than 600 pages of content</li>
+          <li>Includes a free copy of the 1st edition</li>
+          <li>
+            <a href="samples?file=ruby_on_rails_tutorial_samples.zip">Download the sample chapters</a>*
+          </li>
+        </ul>
+      </td>
+      <td class="price">
+        $26
+      </td>
+      <td class="button">
+        <form action="/purchases" method="post"><div style="margin:0;padding:0;display:inline"><input name="authenticity_token" type="hidden" value="tEjPVTbBLCdJ/BCy+hfD4Svnl+fHhJzWAIbBRcYbyew=" /></div>
+          <input id="product" name="product" type="hidden" value="1087131" />
+          <input src="/images/buttons/buy_now.png?1365393178" type="image" />
+        </form>
+      </td>
+    </tr>
+    <tr>
+      <td class="thumbnail">
+        <a href="http://youtu.be/bOdn9EdUquo" target="_blank"><img alt="Screencasts_thumbnail_play" src="/images/thumbnails/screencasts_thumbnail_play.png?1365393179" /></a>
+        <span class="caption">
+          <a href="http://youtu.be/bOdn9EdUquo" target="_blank">Screencasts</a>
+        </span>
+      </td>
+      <td class="description">
+        <ul>
+          <li><strong>More than 15 hours of hands-on Rails instruction</strong></li>
+          <li>Fully updated for the 2nd edition (Ruby 1.9/Rails 3.2)</li>
+          <li>100% DRM-free digital downloads (QuickTime and Ogg Vorbis)</li>
+          <li>Includes copies of both the 1st and 2nd edition screencasts</li>
+          <li>
+            <a href="http://youtu.be/bOdn9EdUquo" target="_blank">View a sample video</a>
+          </li>
+        </ul>
+      </td>
+      <td class="price">
+        $125
+      </td>
+      <td class="button">
+        <form action="/purchases" method="post"><div style="margin:0;padding:0;display:inline"><input name="authenticity_token" type="hidden" value="tEjPVTbBLCdJ/BCy+hfD4Svnl+fHhJzWAIbBRcYbyew=" /></div>
+          <input id="product" name="product" type="hidden" value="1087393" />
+          <input src="/images/buttons/buy_now.png?1365393178" type="image" />
+        </form>
+      </td>
+    </tr>
+    <tr class="last">
+      <td class="thumbnail">
+        <img alt="Bundle_thumbnail" src="/images/thumbnails/bundle_thumbnail.png?1365393179" />
+        <span class="caption">Value bundle</span>
+      </td>
+      <td class="description">
+        <ul>
+          <li><strong>Get the full Rails Tutorial ebook/screencast bundle for the same price as the screencasts alone!</strong></li>
+          <li>Fully updated for the 2nd edition (Ruby 1.9/Rails 3.2)</li>
+          <li>More than 600 pages of content and more than 15&nbsp;hours of video</li>
+          <li>
+            <a href="http://youtu.be/bOdn9EdUquo" target="_blank">View a sample video</a>
+          </li>
+        </ul>
+      </td>
+      <td class="price">
+        <strike>$151</strike>&nbsp;<span style="color: darkred">$125</span>
+      </td>
+      <td class="button">
+        <form action="/purchases" method="post"><div style="margin:0;padding:0;display:inline"><input name="authenticity_token" type="hidden" value="tEjPVTbBLCdJ/BCy+hfD4Svnl+fHhJzWAIbBRcYbyew=" /></div>
+          <input id="product" name="product" type="hidden" value="1087394" />
+          <input src="/images/buttons/buy_both.png?1365393178" type="image" />
+        </form>
+      </td>
+    </tr>
+  </table>
+
+    <p class="footnote"><span style="font-size: 130%">*</span>The <em>Ruby on Rails Tutorial</em> book is also available for free online. Click <a href="/book">here</a> for instant access.</p>
+
+  <blockquote class="round">
+    <p>For what it&rsquo;s worth: I had fantastic customer service from <a href="ht
+tp://twitter.com/railstutorial">@railstutorial</a> today. <strong>Buy with confidence, my friends.</strong> <br />&mdash;<a href="http://twitter.com/#!/danielauger/status/279864
+74960">Daniel Auger</a> (via Twitter)</p>
+  </blockquote>
+    
+    <p style="font-weight: bold; text-align: center;">The Ruby on Rails Tutorial book and screencast series come with a 60-day money-back guarantee.</p>
+
+
+
+</div>
+
+<p id="prerequisites"><em>Prerequisites</em>: Because web applications are by nature complex, some background in programming is recommended. Familiarity with Ruby is useful but not strictly required; I recommend following the short interactive tutorial at <a href="http://tryruby.org/">Try Ruby</a>. You can also do the free tutorial at <a href="http://railsforzombies.org/">Rails for Zombies</a> to get a taste of what Rails can do. For more information, see the section <a href="/book#sec:comments_for_various_readers"><em>Comments for various readers</em></a> in the Rails Tutorial book.</p>
+
+
+<p>The <a href="/">Ruby on Rails Tutorial</a> helps you <span class="highlight">learn Rails by example</span> through the development of a substantial sample application, including a site layout, a user data model, a full registration and authentication system, user-micropost associations, social "following", and a feed of status updates. The <a href="/">Ruby on Rails Tutorial</a> also teaches good software development practices, including <span class="highlight">version control</span> with <a href="http://git-scm.com/">Git</a> and <a href="http://github.com/">GitHub</a>, <span class="highlight">test-driven development (TDD)</span> with <a href="http://rspec.info/">RSpec</a>, and <span class="highlight">instant deployment</span> with <a href="http://heroku.com/">Heroku</a>. Though of necessity the book and screencasts focus on a specific sample application, the emphasis throughout the <a href="/">Rails Tutorial</a> is on general principles, so you will have a solid foundation no matter what kind of web application you want to build.</p>
+
+<p>The <a href="https://github.com/mhartl/rails_tutorial_translation_2nd_ed">HTML source of the online book</a> is available under a <a href="http://creativecommons.org/">Creative Commons</a> license to allow for translation into other languages.  In addition, the print edition, <a href="http://www.amazon.com/gp/product/0321832051/ref=as_li_qf_sp_asin_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0321832051&linkCode=as2&tag=therubonraitu-20">Ruby on Rails Tutorial: Learn Web Development with Rails (2nd Edition)</a><img src="http://www.assoc-amazon.com/e/ir?t=therubonraitu-20&l=as2&o=1&a=0321832051" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+, is currently available for purchase at Amazon.com.
+</p>
+
+<div class="buy">
+  <p class="price">Get the PDF/screencast bundle for only $125!</p>
+
+  <form action="/purchases" method="post"><div style="margin:0;padding:0;display:inline"><input name="authenticity_token" type="hidden" value="tEjPVTbBLCdJ/BCy+hfD4Svnl+fHhJzWAIbBRcYbyew=" /></div>
+    <input id="product" name="product" type="hidden" value="1087394" />
+    <div class="button">
+      <input type="image" src="/images/buttons/buy_bundle_now.png"
+                          alt="Buy bundle now!" />
+    </div>
+  </form>
+</div>
+
+<br />
+
+<div id="author"></div>
+<h3 class="front">About the creator of the Ruby on Rails Tutorial</h3>
+
+<p><a href="http://michaelhartl.com/">Michael Hartl</a> is the author of the <a href="http://ruby.railstutorial.org/"><em>Ruby on Rails Tutorial</em></a>, the leading introduction to web development with <a href="http://rubyonrails.org/">Ruby on Rails</a>. His prior experience includes writing and developing <em>RailsSpace</em>, an extremely obsolete Rails tutorial book, and developing Insoshi, a once-popular and now-obsolete social networking platform in Ruby on Rails. In 2011, Michael received a <a href="http://rubyheroes.com/heroes">Ruby Hero Award</a> for his contributions to the Ruby community. He is a graduate of <a href="http://college.harvard.edu/">Harvard College</a>, has a <a href="http://resolver.caltech.edu/CaltechETD:etd-05222003-161626">Ph.D. in Physics</a> from <a href="http://www.caltech.edu/">Caltech</a>, and is an alumnus of the <a href="http://ycombinator.com/">Y&nbsp;Combinator</a> entrepreneur program. <br /></p>
+
+
+<div class="box">
+  <h2 class="product title">An absolutely top-notch package for learning the Rails 3 framework</h2>
+  <blockquote class="round">
+
+<p>Written and presented by theoretical physicist Michael Hartl, <a href="/">Ruby on Rails Tutorial</a> offers <strong>a&nbsp;superb introduction to the world of a Rails developer</strong>. The Rails Tutorial PDF and complete training video set is an absolutely top-notch package for learning the Rails 3 framework&hellip;</p>
+
+<p><strong>I can&rsquo;t emphasize enough how much I enjoyed the Ruby on Rails Tutorial book+video bundle</strong>. <a href="railstutorial.org">railstutorial.org</a> will no doubt educate legions of beginning and intermediate Rails developers, and will be one of those resources that students who complete the book and video course will refer to often. Because Michael offers the full contents of the book available for free on the website, both the book and videos are sure to become some of the most frequently cited educational references among Rails 3 students. This package will no doubt play a major catalytic role in many Rails technical training and development careers.</p>
+
+<p>If you have any interest in Rails 3, <strong>you owe it to yourself and your educational investment to obtain this superb package</strong>. It will likely be one of the best and most educationally rewarding purchases you will make this year.</p>
+
+  <p class="from">&mdash;<a href="http://drdobbs.com/blogs/tools/229300293">Mike Riley, Dr. Dobb&rsquo;s</a></p>
+  </blockquote>
+</div>
+<div class="buy">
+  <p class="price">Get the PDF/screencast bundle for only $125!</p>
+
+  <form action="/purchases" method="post"><div style="margin:0;padding:0;display:inline"><input name="authenticity_token" type="hidden" value="tEjPVTbBLCdJ/BCy+hfD4Svnl+fHhJzWAIbBRcYbyew=" /></div>
+    <input id="product" name="product" type="hidden" value="1087394" />
+    <div class="button">
+      <input type="image" src="/images/buttons/buy_bundle_now.png"
+                          alt="Buy bundle now!" />
+    </div>
+  </form>
+</div>
+<h3 class='front' id='praise'>Praise for the Ruby on Rails Tutorial</h3>
+<div class='reviews'>
+  <div class='left'>
+    <h4>These screencasts are awesome</h4>
+    <blockquote>
+      <p>I got review access to all of the material a week ago and can confirm that, yes, these <a href="/screencasts">screencasts</a> are awesome (as long as watching over 15 hours of screencasts is your cup of tea). I've seen people compare them to the style used by Ryan Bates on his <a href="http://railscasts.com/">Railscasts</a> and I'd go along with that. Direct and practical&hellip;</p>
+      <p>If you basically want to be able to look "over the shoulder" of an experienced Rails developer and see how a Rails development environment is set up and how multiple apps are built, there's nothing that can beat this. This isn't a set of "build a blog in 15 minutes" videos&mdash;it's a complete course that could kick off a new career for you with Rails&nbsp;3.0.</p>
+      <p class='reader'>&mdash;<a href="https://twitter.com/#!/peterc">Peter Cooper</a>, <a href="http://www.rubyinside.com/michael-hartls-15-hours-of-rails-3-screencasts-3886.html">Ruby Inside</a></p>
+    </blockquote>
+    <h4>A great encore by a master teacher</h4>
+    <blockquote>
+      <p>Michael Hartl has followed his tour-de-force <a href="/book">Ruby on Rails Tutorial book</a> with an equally accessible and effective set of video screencasts. Both the book and the screencasts are great standalone introductions to the world of Ruby on Rails&nbsp;3.0, but using the two in combination or in tandem is even better in granting confidence of mastery of this difficult subject.</p>
+      <p>I particularly enjoyed the "you are there", watching-the-sausage-being-made style of presentation. Typos, syntax errors, and blind alleys are all there as would occur in real-life programming. This approach does several things&mdash;it adds drama (you can't wait to see if it works), it gives the viewer reassurance that your own failings are within normal limits, and finally it's instructive in how to approach the Rails debugging process itself.</p>
+      <p><a href="/screencasts">The Ruby on Rails Tutorial Screencasts</a> are a great encore by a master teacher.</p>
+      <p class='reader'>&mdash;<a href="http://www.soundbuytz.com/">Ron Bingham</a></p>
+    </blockquote>
+    <h4>Something you just can't get as well from a book</h4>
+    <blockquote>
+      <p>Michael's screencasts are more in the style of <a href="http://khanacademy.org">Khan Academy</a> than of <a href="http://peepcode.com/">PeepCode</a> or <a href="http://railscasts.com/">Railscasts</a>, which is to say it's pretty much just Michael and his laptop screen, walking your fingers around a keyboard as you build and deploy a Twitter clone complete with tests and a solid user interface.  Michael is the sort of teacher who can make an idea clear in 15 minutes, when another teacher might need an hour&mdash;or worse, when another teacher might put you to sleep.</p>
+      <p>Even if you're the sort of person who learns best on her own, from a book&mdash;and I fit this profile&mdash;I still recommend the screencasts.  Michael's passion for his subject is both obvious, and infectious, and by watching the screencasts you'll get an idea of how a solid Rails developer thinks about building production quality applications&mdash;something you just can't get as well from a book.</p>
+      <p class='reader'>&mdash;Frederick Schoeneman</p>
+    </blockquote>
+  </div>
+  <div class='right'>
+    <h4>The new screencast series got me to a whole other level of understanding</h4>
+    <blockquote>
+      <p>Michael's original <a href="/book">Ruby on Rails tutorial</a> got me from someone who read Rails books to someone who actually was able to develop basic Rails apps&mdash;his teaching methodology somehow got me involved like no other book and allowed me to produce results quickly and gain confidence. The new screencast series got me to a whole other level of understanding.</p>
+      <p>Imagine going through the tutorial but having the pro-level developer behind the tutorial giving you a running commentary with tips, tricks, and useful detours&mdash;all while contributing to your growth as a Rails developer with a test-driven approach. I've always known that understanding how experts think about what they do is the key to learning and mastering something. In this screencast format, Michael was able to go beyond the limitations of the written word and both show and explain his approach to Rails development in an engaging manner.</p>
+      <p>If you are early in your days with Rails, just <a href="#buy">buy this series.</a></p>
+      <p class='reader'>&mdash;<a href="http://alanmccann.com">Alan McCann</a></p>
+    </blockquote>
+    <h4>The equivalent of a packed 2 or 3 day Rails course at a bargain price</h4>
+    <blockquote>
+      <p>The <a href="/book"><em>Rails Tutorial</em> book</a> is currently the best way to get from zero to 60 with Rails&nbsp;3, but with the screencast series it's like going from zero to 100 at the same time. It adds a whole other dimension to the same material by making it become so much more alive. Having Michael's screen and voice guide me through the lessons was such a breeze and added value by providing hands-on practical information while at the same time the PDF was there as a reference. Truly a winning combination in the equivalent of a packed 2 or 3 day Rails course at a bargain price in the comfort of my own home!</p>
+      <p class='reader'>&mdash;Sam Bauer</p>
+    </blockquote>
+    <h4>The best tutorial since K&amp;R</h4>
+    <blockquote>
+      <p>Just finished the outstanding Rails Tutorial. Probably the best software tutorial I've experienced since <a href="http://en.wikipedia.org/wiki/The_C_Programming_Language">K&amp;R</a>. Can't wait for the <a href="http://amzn.to/AeryB0">dead tree version</a>.</p>
+      <p class='reader'>&mdash;<a href="https://twitter.com/#!/meekrosoft/statuses/2095543769632768">Mike Long</a> (via Twitter)</p>
+    </blockquote>
+    <h4>The best Rails tutorial on the planet</h4>
+    <blockquote>
+      <p>If you are interested in learning Rails, <a href="http://twitter.com/railstutorial">@railstutorial</a> is, by far, the best Rails tutorial on the planet.</p>
+      <p class='reader'>&mdash;<a href="http://twitter.com/#!/ruprictGeek/status/28687180981">Glenn Goodrich</a> (via Twitter)</p>
+    </blockquote>
+    <h4>Learning has been sped up 3x faster!</h4>
+    <blockquote>
+      <p>Rails is getting exciting! Learning has been sped up 3x faster now with the <a href="http://twitter.com/railstutorial">@railstutorial</a> screencasts!</p>
+      <p class='reader'>&mdash;<a href="https://twitter.com/#!/AlexanderParas/statuses/29385235584">Alexander Paras</a> (via Twitter)</p>
+    </blockquote>
+    <!-- %h4 The screencast is amazing -->
+    <!-- %blockquote -->
+    <!-- %p <a href="http://twitter.com/railstutorial">@railstutorial</a> thanks for reply... Links are ok now and the screencast is amazing. Will make my purchase now. Congratulations! -->
+    <!-- %p.reader &mdash;<a href="http://twitter.com/#!/binhojansen/status/27199380593">F&aacute;bio Jansen</a> (via Twitter) -->
+  </div>
+</div>
+
+<div class='reviews'>
+  <div class='left'>
+    <h4>The #1 place to start when learning Rails 3</h4>
+    <blockquote>
+      <p>Michael Hartl's Rails Tutorial book is the #1 (and only, in my opinion) place to start when it comes to books about <em>learning</em> Rails&nbsp;3. Not only is it available to read for free online, but you can buy a well-formatted PDF too. It's an amazing piece of work and, unusually, walks you through building a Rails app from start to finish with <em>testing</em>. If you want to read just one book/site and feel like a Rails&nbsp;3 master by the end of it, pick <a href="/">RailsTutorial.org</a>.</p>
+      <p class='reader'>&mdash;<a href="https://twitter.com/#!/peterc">Peter Cooper</a>, <a href="http://www.rubyinside.com/rails-3-0-released-and-22-free-videos-to-bring-you-up-to-speed-3733.html">Ruby Inside</a></p>
+    </blockquote>
+    <h4>Ruby on Rails Tutorial is the best!</h4>
+    <blockquote>
+      <p>Just wanted to say that your Ruby on Rails tutorial is the best!</p>
+      <p>I've been trying for awhile to wrap my head around Rails. Going  through your tutorial, I'm finally feeling comfortable in the Rails environment. Your pedagogical style of gradually introducing more complex topics while at the same time giving the reader the instant gratification and a sense of accomplishment with working examples really works for me. I also like the tips and suggestions that gives me a sense of learning from a real Rails insider. Your e-mail response to a problem I ran into is an example of your generous sharing of your experience.</p>
+      <p class='reader'>&mdash;<a href="http://www.soundbuytz.com/">Ron Bingham</a></p>
+    </blockquote>
+    <h4>Woohoo! This is some fun coding with RoR&hellip;</h4>
+    <blockquote>
+      <p>I have done other books (including RailsSpace), and none make the intro to RoR so much fun as this one.</p>
+      <p>Given that I have read other RoR books, I did not expect to learn new stuff just going through the first couple of chapters. Just expected the same-ole 'Hello, world!' stuff. BUT NONE OF THAT WAS THERE&hellip; and I DID learn new stuff I did not know:</p>
+      <ul>
+        <li>How to use Git properly</li>
+        <li>How to <a href="http://heroku.com/">deploy Rails the easy way</a></li>
+        <li>Neat TDD tricks which make test-driven development fun</li>
+        <li>and so much more&hellip;</li>
+      </ul>
+      <p>All within the first 3 chapters. I already feel like a better developer ;-). Now, I expect we are going to be getting started heavy with the sample app in <a href="http://www.railstutorial.org/chapters/rails-flavored-ruby#top">Chapter 4</a> [and beyond].</p>
+      <p>I am excited!</p>
+      <p class='reader'>&mdash;<a href="http://getsatisfaction.com/railstutorial/topics/diving_into_chapter_4">Joshua C.</a></p>
+    </blockquote>
+    <h4>Very detailed and hands-on Rails tutorial!</h4>
+    <blockquote>
+      <p>Hi Michael, great job! I'm learning Rails, and I found your tutorial to be one of the most detailed and hands-on guides. Besides many details of Rails, it also taught me about Git, Heroku, RSpec, Webrat, and most important (at least to me) it emphasized the Test-Driven Development (TDD) methodology. I learned a lot from your tutorial.</p>
+      <p class='reader'>&mdash;6yifeng</p>
+    </blockquote>
+    <h4>I love the writing style of the Rails Tutorial</h4>
+    <blockquote>
+      <p>I love the writing style of the Rails Tutorial and there is so much content that is different from other Rails books out there, making it that much more valuable&hellip; Thanks for your work!</p>
+      <p class='reader'>&mdash;Allen Ding</p>
+    </blockquote>
+  </div>
+  <div class='right'>
+    <h4>Awesome book&mdash;Thanks!</h4>
+    <blockquote>
+      <p>Spent the last 3 days nonstop doing <a href="/">http://railstutorial.org/</a> start-to-finish. Awesome book, <a href="http://twitter.com/railstutorial">@railstutorial</a>&mdash;Thanks!</p>
+      <p class='reader'>&mdash;<a href="http://sivers.org/">Derek Sivers</a> (<a href="http://twitter.com/sivers/status/15233060446">via Twitter</a>)</p>
+    </blockquote>
+    <h4>A precious Gem</h4>
+    <blockquote>
+      <p>Amazing tutorial, thanks for all the time and effort you have put in to help us become better developers. I was mowing away without a sense of direction until I found this site, and haven't looked back since.</p>
+      <p>Keep up with your good job! Thanks so much for sharing&nbsp;it.</p>
+      <p class='reader'>&mdash;<a href="http://getsatisfaction.com/railstutorial/topics/a_precious_gem">Gautham Ramesh</a></p>
+    </blockquote>
+    <h4>Rails Tutorial Rocks!</h4>
+    <blockquote>
+      <p>This by far the best tutorial on Ruby on Rails I've come across. I can't thank you enough for it. I've learned so much.</p>
+      <p class='reader'>&mdash;<a href="http://getsatisfaction.com/railstutorial/topics/tutorial_rocks">Sid Conklin</a></p>
+    </blockquote>
+    <h4>The best introduction to Rails I've ever seen</h4>
+    <blockquote>
+      <p>This is the best introduction to Rails I've ever seen. Rails is amazing, but with the fast-moving pace of the tools the community uses, I've always felt like it was some sort of exclusive club I couldn't get into. But after going through just the first chapter and having a Rails app up and running using Git, with a GitHub repo and deployed on Heroku, I don't feel left out anymore.</p>
+      <p>Keep up the amazing work!</p>
+      <p class='reader'>&mdash;<a href="http://getsatisfaction.com/railstutorial/topics/thank_you_this_is_great">Michael Erasmus</a></p>
+    </blockquote>
+    <h4>Impressive</h4>
+    <blockquote>
+      <p>Sometimes I feel the text is too long and I think it is all clear on the page, before I even read it. Sometimes I stumble a little and may even re-read a paragraph or two, figuring out what I missed. But in the end of the chapter I feel I grasped everything, can do the exercises easily, and know where to look for the answer.</p>
+      <p>I honestly think the book is tremendously effective in making Ruby on Rails even more popular and in making programming so much fun!</p>
+      <p class='reader'>&mdash;<a href="http://getsatisfaction.com/railstutorial/topics/impressive-152h2">Adan Chenkov</a></p>
+    </blockquote>
+    <h4>Great Explanation of Version Control, Hosting and Testing</h4>
+    <blockquote>
+      <p>I've read a number of Rails books and this one (finally) made me understand it. What made it great was the inclusion, right off the bat, of Git, GitHub, Heroku, and RSpec. Version control, hosting and testing are usually topics kicked to the back of the book and BORING. You made it exciting&mdash;I cheered as my first Autospec test passed in the background after I made a change to the code. When I do move on to more customizable and scalable databases and hosting systems, I'll be ready. Also, <a href="/book#top">Chapters 1&ndash;4</a> offer a great basic template for setting up almost any site.</p>
+      <p class='reader'>&mdash;<a href="http://getsatisfaction.com/railstutorial/topics/great_explanation_of_version_control_hosting_and_testing">Jake</a></p>
+    </blockquote>
+    <h4>Incredibly useful</h4>
+    <blockquote>
+      <p>Rails Tutorial is pitched at a great level for beginners. There's great explanations of concepts and how they apply to RoR.</p>
+      <p class='reader'>&mdash;<a href="http://getsatisfaction.com/railstutorial/topics/incredibly_useful">mjdyson</a></p>
+    </blockquote>
+  </div>
+</div>
+
+<div class="buy">
+  <p class="price">Get the PDF/screencast bundle for only $125!</p>
+
+  <form action="/purchases" method="post"><div style="margin:0;padding:0;display:inline"><input name="authenticity_token" type="hidden" value="tEjPVTbBLCdJ/BCy+hfD4Svnl+fHhJzWAIbBRcYbyew=" /></div>
+    <input id="product" name="product" type="hidden" value="1087394" />
+    <div class="button">
+      <input type="image" src="/images/buttons/buy_bundle_now.png"
+                          alt="Buy bundle now!" />
+    </div>
+  </form>
+</div>
+
+</div>        
+        </div>
+
+    <div>Michael Hartl is a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for sites to earn advertising fees by advertising and linking to Amazon.com.</div>
+ 
+    <div id="container-bottom"></div>
+    
+<div id="fb-root"></div>
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({appId: '145973438749643', status: true, cookie: true,
+             xfbml: true});
+  };
+  (function() {
+    var e = document.createElement('script');
+    e.type = 'text/javascript';
+    e.src = document.location.protocol +
+      '//connect.facebook.net/en_US/all.js';
+    e.async = true;
+    document.getElementById('fb-root').appendChild(e);
+  }());
+</script>
+
+  
+      <script type="text/javascript">
+  var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+  document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+  </script>
+  <script type="text/javascript">
+  try {
+  var pageTracker = _gat._getTracker("UA-8667566-1");
+  pageTracker._trackPageview();
+  } catch(err) {}</script>
+
+  
+  
+  </div>
+</body>
+</html>
