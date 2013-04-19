@@ -2,19 +2,212 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3aec1b3a-4ab2-4ef5-a472-5bbc2709b7b7" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/factories.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/njanken.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/users/show.html.erb" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.AppleDouble/.Parent" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.AppleDouble/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.AppleDouble/.rspec" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.AppleDouble/Gemfile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.AppleDouble/Gemfile.lock" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.AppleDouble/Gemfile.lock.old" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.AppleDouble/Gemfile.lock.old2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.AppleDouble/README.markdown" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.AppleDouble/Rakefile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.AppleDouble/config.ru" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.AppleDouble/webrat.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.AppleDouble/.Parent" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.AppleDouble/.name" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.AppleDouble/.rakeTasks" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.AppleDouble/encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.AppleDouble/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.AppleDouble/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.AppleDouble/sample_app.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.AppleDouble/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.AppleDouble/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/scopes/.AppleDouble/.Parent" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/scopes/.AppleDouble/scope_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/.AppleDouble/.Parent" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/.AppleDouble/.Parent" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/.AppleDouble/.Parent" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/.AppleDouble/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/.AppleDouble/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/.AppleDouble/rails.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/.AppleDouble/.Parent" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/.AppleDouble/application.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/.AppleDouble/pages.js.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/.AppleDouble/users.js.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/.AppleDouble/.Parent" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/.AppleDouble/application.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/.AppleDouble/custom.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/.AppleDouble/pages.css.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/.AppleDouble/users.css.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/blueprint/.AppleDouble/.Parent" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/blueprint/.AppleDouble/ie.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/blueprint/.AppleDouble/print.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/blueprint/.AppleDouble/screen.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/blueprint/plugins/.AppleDouble/.Parent" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/blueprint/plugins/buttons/.AppleDouble/.Parent" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/blueprint/plugins/buttons/.AppleDouble/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/blueprint/plugins/buttons/.AppleDouble/screen.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/blueprint/plugins/buttons/icons/.AppleDouble/.Parent" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/blueprint/plugins/buttons/icons/.AppleDouble/cross.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/blueprint/plugins/buttons/icons/.AppleDouble/key.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/blueprint/plugins/buttons/icons/.AppleDouble/tick.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/blueprint/plugins/fancy-type/.AppleDouble/.Parent" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/blueprint/plugins/fancy-type/.AppleDouble/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/blueprint/plugins/fancy-type/.AppleDouble/screen.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/blueprint/plugins/link-icons/.AppleDouble/.Parent" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/blueprint/plugins/link-icons/.AppleDouble/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/blueprint/plugins/link-icons/.AppleDouble/screen.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/blueprint/plugins/link-icons/icons/.AppleDouble/.Parent" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/blueprint/plugins/link-icons/icons/.AppleDouble/doc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/blueprint/plugins/link-icons/icons/.AppleDouble/email.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/blueprint/plugins/link-icons/icons/.AppleDouble/external.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/blueprint/plugins/link-icons/icons/.AppleDouble/feed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/blueprint/plugins/link-icons/icons/.AppleDouble/im.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/blueprint/plugins/link-icons/icons/.AppleDouble/lock.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/blueprint/plugins/link-icons/icons/.AppleDouble/pdf.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/blueprint/plugins/link-icons/icons/.AppleDouble/visited.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/blueprint/plugins/link-icons/icons/.AppleDouble/xls.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/blueprint/plugins/rtl/.AppleDouble/.Parent" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/blueprint/plugins/rtl/.AppleDouble/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/blueprint/plugins/rtl/.AppleDouble/screen.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/blueprint/src/.AppleDouble/.Parent" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/blueprint/src/.AppleDouble/forms.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/blueprint/src/.AppleDouble/grid.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/blueprint/src/.AppleDouble/grid.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/blueprint/src/.AppleDouble/ie.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/blueprint/src/.AppleDouble/print.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/blueprint/src/.AppleDouble/reset.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/blueprint/src/.AppleDouble/typography.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/controllers/.AppleDouble/.Parent" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/controllers/.AppleDouble/application_controller.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/controllers/.AppleDouble/pages_controller.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/controllers/.AppleDouble/users_controller.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/helpers/.AppleDouble/.Parent" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/helpers/.AppleDouble/application_helper.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/helpers/.AppleDouble/pages_helper.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/helpers/.AppleDouble/users_helper.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/mailers/.AppleDouble/.Parent" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/mailers/.AppleDouble/.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/models/.AppleDouble/.Parent" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/models/.AppleDouble/.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/models/.AppleDouble/user.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/.AppleDouble/.Parent" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/layouts/.AppleDouble/.Parent" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/layouts/.AppleDouble/_footer.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/layouts/.AppleDouble/_header.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/layouts/.AppleDouble/_stylesheets.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/layouts/.AppleDouble/application.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/pages/.AppleDouble/.Parent" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/pages/.AppleDouble/about.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/pages/.AppleDouble/contact.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/pages/.AppleDouble/help.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/pages/.AppleDouble/home.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/users/.AppleDouble/.Parent" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/users/.AppleDouble/new.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/autotest/.AppleDouble/.Parent" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/autotest/.AppleDouble/discover.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/config/.AppleDouble/.Parent" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/config/.AppleDouble/application.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/config/.AppleDouble/boot.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/config/.AppleDouble/database.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/config/.AppleDouble/environment.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/config/.AppleDouble/routes.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/config/environments/.AppleDouble/.Parent" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/config/environments/.AppleDouble/development.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/config/environments/.AppleDouble/production.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/config/environments/.AppleDouble/test.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/config/initializers/.AppleDouble/.Parent" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/config/initializers/.AppleDouble/backtrace_silencers.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/config/initializers/.AppleDouble/inflections.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/config/initializers/.AppleDouble/mime_types.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/config/initializers/.AppleDouble/secret_token.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/config/initializers/.AppleDouble/session_store.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/config/initializers/.AppleDouble/wrap_parameters.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/config/locales/.AppleDouble/.Parent" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/config/locales/.AppleDouble/en.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/.AppleDouble/.Parent" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/.AppleDouble/development.sqlite3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/.AppleDouble/schema.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/.AppleDouble/seeds.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/.AppleDouble/test.sqlite3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/.AppleDouble/.Parent" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/.AppleDouble/20130408013842_create_users.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/.AppleDouble/.Parent" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/.AppleDouble/README_FOR_APP" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/.AppleDouble/.Parent" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/assets/.AppleDouble/.Parent" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/assets/.AppleDouble/.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/tasks/.AppleDouble/.Parent" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/tasks/.AppleDouble/.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/log/.AppleDouble/.Parent" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/log/.AppleDouble/.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/log/.AppleDouble/development.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/log/.AppleDouble/test.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/.AppleDouble/.Parent" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/.AppleDouble/404.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/.AppleDouble/422.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/.AppleDouble/500.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/.AppleDouble/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/.AppleDouble/hello.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/.AppleDouble/robots.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/stylesheets/.AppleDouble/.Parent" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/script/.AppleDouble/.Parent" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/script/.AppleDouble/rails" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spec/.AppleDouble/.Parent" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spec/.AppleDouble/spec_helper.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spec/controllers/.AppleDouble/.Parent" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spec/controllers/.AppleDouble/pages_controller_spec.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spec/controllers/.AppleDouble/users_controller_spec.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spec/helpers/.AppleDouble/.Parent" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spec/helpers/.AppleDouble/users_helper_spec.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spec/models/.AppleDouble/.Parent" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spec/models/.AppleDouble/user_spec.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spec/requests/.AppleDouble/.Parent" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spec/requests/.AppleDouble/layout_links_spec.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spec/views/.AppleDouble/.Parent" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spec/views/users/.AppleDouble/.Parent" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spec/views/users/.AppleDouble/new.html.erb_spec.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/.AppleDouble/.Parent" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/.AppleDouble/.Parent" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/.AppleDouble/.Parent" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/.AppleDouble/.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/stylesheets/.AppleDouble/.Parent" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/assets/stylesheets/.AppleDouble/.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/plugins/.AppleDouble/.Parent" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/plugins/.AppleDouble/.gitkeep" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/requests/layout_links_spec.rb" afterPath="$PROJECT_DIR$/spec/requests/layout_links_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/custom.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/custom.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sample_app.iml" afterPath="$PROJECT_DIR$/.idea/sample_app.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/user.rb" afterPath="$PROJECT_DIR$/app/models/user.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/models/user_spec.rb" afterPath="$PROJECT_DIR$/spec/models/user_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/users_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/users_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/controllers/users_controller_spec.rb" afterPath="$PROJECT_DIR$/spec/controllers/users_controller_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/helpers/users_helper.rb" afterPath="$PROJECT_DIR$/app/helpers/users_helper.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webrat.log" afterPath="$PROJECT_DIR$/webrat.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="sample_app.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/users_controller_spec.rb" changelist="3aec1b3a-4ab2-4ef5-a472-5bbc2709b7b7" time="1366004586659" ignored="false" />
-    <file path="/Dummy.txt" changelist="3aec1b3a-4ab2-4ef5-a472-5bbc2709b7b7" time="1366151196416" ignored="false" />
-    <file path="/user.rb" changelist="3aec1b3a-4ab2-4ef5-a472-5bbc2709b7b7" time="1366040729370" ignored="false" />
+    <file path="/users_controller_spec.rb" changelist="3aec1b3a-4ab2-4ef5-a472-5bbc2709b7b7" time="1366310522653" ignored="false" />
+    <file path="/Dummy.txt" changelist="3aec1b3a-4ab2-4ef5-a472-5bbc2709b7b7" time="1366368329902" ignored="false" />
+    <file path="/user.rb" changelist="3aec1b3a-4ab2-4ef5-a472-5bbc2709b7b7" time="1366309472523" ignored="false" />
     <file path="/20130415154841_add_email_uniqueness_index.rb" changelist="3aec1b3a-4ab2-4ef5-a472-5bbc2709b7b7" time="1366042098231" ignored="false" />
     <file path="/application.html.erb" changelist="3aec1b3a-4ab2-4ef5-a472-5bbc2709b7b7" time="1366042219734" ignored="false" />
+    <file path="/show.html.erb" changelist="3aec1b3a-4ab2-4ef5-a472-5bbc2709b7b7" time="1366369226267" ignored="false" />
+    <file path="/users_controller.rb" changelist="3aec1b3a-4ab2-4ef5-a472-5bbc2709b7b7" time="1366307800009" ignored="false" />
+    <file path="/routes.rb" changelist="3aec1b3a-4ab2-4ef5-a472-5bbc2709b7b7" time="1366177234568" ignored="false" />
+    <file path="/user_spec.rb" changelist="3aec1b3a-4ab2-4ef5-a472-5bbc2709b7b7" time="1366222537596" ignored="false" />
+    <file path="/Gemfile" changelist="3aec1b3a-4ab2-4ef5-a472-5bbc2709b7b7" time="1366309832285" ignored="false" />
+    <file path="/factories.rb" changelist="3aec1b3a-4ab2-4ef5-a472-5bbc2709b7b7" time="1366308595343" ignored="false" />
+    <file path="/a.dummy" changelist="3aec1b3a-4ab2-4ef5-a472-5bbc2709b7b7" time="1366369230592" ignored="false" />
+    <file path="/users_helper.rb" changelist="3aec1b3a-4ab2-4ef5-a472-5bbc2709b7b7" time="1366310653558" ignored="false" />
+    <file path="/custom.css" changelist="3aec1b3a-4ab2-4ef5-a472-5bbc2709b7b7" time="1366370773458" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,64 +227,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="user.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+      <file leaf-file-name="custom.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="6" selection-start="54" selection-end="54" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="schema_definitions.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p125/gems/activerecord-3.2.13/lib/active_record/connection_adapters/abstract/schema_definitions.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="407" column="10" selection-start="16074" selection-end="16074" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="20130415154841_add_email_uniqueness_index.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/migrate/20130415154841_add_email_uniqueness_index.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="3" selection-start="117" selection-end="117" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="schema_statements.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p125/gems/activerecord-3.2.13/lib/active_record/connection_adapters/abstract/schema_statements.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="349" column="10" selection-start="13750" selection-end="13750" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="user_spec.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spec/models/user_spec.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="layout_links_spec.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spec/requests/layout_links_spec.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="55" selection-start="155" selection-end="155" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.html.erb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="169" selection-start="460" selection-end="460" vertical-scroll-proportion="0.3765227">
+            <state line="135" column="63" selection-start="1531" selection-end="1531" vertical-scroll-proportion="0.81578946">
               <folding />
             </state>
           </provider>
@@ -115,19 +254,25 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/spec/controllers/users_controller_spec.rb" />
         <option value="$PROJECT_DIR$/spec/requests/layout_links_spec.rb" />
-        <option value="$PROJECT_DIR$/app/models/user.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20130415154841_add_email_uniqueness_index.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/spec/models/user_spec.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/users_controller.rb" />
+        <option value="$PROJECT_DIR$/spec/factories.rb" />
+        <option value="$PROJECT_DIR$/app/models/user.rb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/spec/controllers/users_controller_spec.rb" />
+        <option value="$PROJECT_DIR$/app/helpers/users_helper.rb" />
+        <option value="$PROJECT_DIR$/app/views/users/show.html.erb" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/custom.css" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-2" />
-    <option name="y" value="6" />
-    <option name="width" value="1917" />
-    <option name="height" value="1080" />
+    <option name="width" value="779" />
+    <option name="height" value="797" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -272,24 +417,44 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="-2" y="6" width="1917" height="1080" extended-state="0" />
+    <frame x="0" y="0" width="779" height="797" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329927" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3288889" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4074703" sideWeight="0.9606918" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25431034" sideWeight="0.670073" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.11566092" sideWeight="0.670073" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32846716" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -356,71 +521,93 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+    <entry file="file://$PROJECT_DIR$/db/migrate/20130417142658_add_password_to_users.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="6" selection-start="6" selection-end="6" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/schema.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p125/gems/factory_girl-4.2.0/lib/factory_girl/syntax/default.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="5" column="10" selection-start="87" selection-end="87" vertical-scroll-proportion="0.09149623" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="38" selection-end="38" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/controllers/users_controller_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="81" selection-start="402" selection-end="402" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/controllers/users_controller_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="81" selection-start="402" selection-end="402" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/pages_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="5" selection-start="83" selection-end="83" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/application.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="8" selection-start="155" selection-end="155" vertical-scroll-proportion="0.043256998" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/requests/layout_links_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="55" selection-start="155" selection-end="155" vertical-scroll-proportion="0.0">
+        <state line="4" column="31" selection-start="116" selection-end="116" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p125/gems/activerecord-3.2.13/lib/active_record/connection_adapters/abstract/schema_statements.rb">
+    <entry file="file://$PROJECT_DIR$/spec/factories.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="349" column="10" selection-start="13750" selection-end="13750" vertical-scroll-proportion="0.0">
+        <state line="0" column="7" selection-start="7" selection-end="7" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/users/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="7" selection-start="7" selection-end="7" vertical-scroll-proportion="-0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/helpers/users_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="9" selection-start="81" selection-end="81" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="33" selection-start="601" selection-end="601" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/models/user_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="98" column="75" selection-start="2737" selection-end="2737" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/controllers/pages_controller_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/controllers/users_controller_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="42" selection-start="506" selection-end="506" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/pages_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
@@ -428,28 +615,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/user.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="6" selection-start="54" selection-end="54" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.65789473">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p125/gems/activerecord-3.2.13/lib/active_record/connection_adapters/abstract/schema_definitions.rb">
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="407" column="10" selection-start="16074" selection-end="16074" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20130415154841_add_email_uniqueness_index.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="3" selection-start="117" selection-end="117" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="169" selection-start="460" selection-end="460" vertical-scroll-proportion="0.3765227">
+        <state line="135" column="63" selection-start="1531" selection-end="1531" vertical-scroll-proportion="0.81578946">
           <folding />
         </state>
       </provider>

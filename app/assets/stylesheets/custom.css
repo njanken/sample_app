@@ -29,8 +29,8 @@ section h1 {
 /* Links */
 
 a {
-	color: : #09c;
-	text-decoration: none;
+	color: #09c;
+	text-decoration: none
 }
 
 a:hover {
@@ -70,7 +70,7 @@ nav ul li a {
 }
 
 nav ul li a {
-	padding: 0 5px
+	padding: 0 5px;
 	font-weight: bold;
 }
 
@@ -115,4 +115,28 @@ footer {
 
 footer nav {
 	float: none;
+}
+
+/* User show page */
+
+table.profile {
+    width: 100%;
+    margin-bottom: 0;
+}
+
+td.main {
+    width: 70%;
+    margin-bottom: 0;
+}
+
+td.sidebar {
+    width: 30%;
+    padding: 1em;
+    vertical-align: top;
+    background: #ffc;
+}
+
+.profile img.gravatar {
+    border: 1px solid #999;
+    margin-bottom: -15px;
 }
